@@ -16,6 +16,16 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 TOKEN = '1423071373:AAFH4pMoWGsGdGKYZGGMOC6n_8uZzT5TEis'
 
+Clients = dict()
+
+
+
+
+
+
+
+
+
 # Определите несколько обработчиков команд. Обычно они требуют обновления двух аргументов и
 # context. Обработчики ошибок также получают поднятый объект TelegramError по ошибке.
 def start(update, context):
