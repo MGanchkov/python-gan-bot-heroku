@@ -538,7 +538,7 @@ def start(update, context):
 
 def help(update, context):
     """Send a message when the command /help is issued."""
-    //update.message.reply_text('Help!')
+    # update.message.reply_text('Help!')
     update.message.send_message(helpText)
 
 def echo(update, context):
