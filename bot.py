@@ -16,8 +16,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 TOKEN = '1423071373:AAFH4pMoWGsGdGKYZGGMOC6n_8uZzT5TEis'
 
-# Define a few command handlers. These usually take the two arguments update and
-# context. Error handlers also receive the raised TelegramError object in error.
+# Определите несколько обработчиков команд. Обычно они требуют обновления двух аргументов и
+# context. Обработчики ошибок также получают поднятый объект TelegramError по ошибке.
 def start(update, context):
     """Send a message when the command /start is issued."""
     update.message.reply_text('Hi!')
